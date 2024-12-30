@@ -6,6 +6,7 @@ import cloudflare from '../public/Cloudflare-Logo.svg'
 import paypalLogo from '../public/PayPal-Logo.png'
 import webLogo from '../public/weebDeev.webp'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Main = () => {
   return (
@@ -20,12 +21,12 @@ const Main = () => {
             Next.js and styled with Tailwind CSS
             </p>
             <div className="flex justify-center">
-            <a
+            <Link
                 className="bg-black text-white inline-flex items-center px-5 py-3 mt-2 font-medium transition duration-500 ease-in-out transform border rounded-lg"
                 href="https://my-portfolio-iota-two-84.vercel.app"
             >
                 <span className="justify-center">Portfolio</span>
-            </a>
+            </Link>
             </div>
         </div>
         <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10">
@@ -82,12 +83,12 @@ const Main = () => {
                 autoComplete="email"
                 className="border border-gray-600 w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-900"
             ></input>{" "}
-            <a
+            <Link
                 className="bg-black text-white inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium transition duration-500 ease-in-out transform border rounded-lg"
                 href="/"
             >
                 <span className="justify-center">Subscribe</span>
-            </a>
+            </Link>
             </div>
         </div>
         </section>
